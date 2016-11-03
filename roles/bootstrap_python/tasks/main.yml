@@ -1,0 +1,10 @@
+---
+# Bootstrap nodes with Python
+
+- name: Include Tasks when Ubuntu/Debian
+  include: bootstrap_debian.yml
+  when: ansible_os_family == "Debian"
+
+- name: Include Tasks when CentOS/Redhat
+  include: bootstrap_rhel.yml
+  when: ansible_os_family == "Redhat"

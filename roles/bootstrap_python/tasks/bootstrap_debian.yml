@@ -1,0 +1,8 @@
+---
+#Bootstap Debian Hosts
+
+- name: Update Cache
+  raw: sudo apt-get update
+
+- name: Install Python2.7 and SimpleJSON
+  raw: sudo apt-get install -y python2.7 python-simplejson

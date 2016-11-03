@@ -1,0 +1,7 @@
+---
+- name: Deploy Lab and All Roles
+  hosts: all
+  become: true
+  roles:
+    - bootstrap_python
+    #Add Your Roles Here!

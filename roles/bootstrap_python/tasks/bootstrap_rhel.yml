@@ -1,0 +1,6 @@
+---
+#Install python for Redhat OSes -- COMING SOON!
+
+#TODO: Validate RHEL is working.  Not working for now, since lab is only used for Ubuntu.
+#- name: Install Python2.7 and SimpleJSON
+#  raw: sudo yum install python2.7 python-simplejson
